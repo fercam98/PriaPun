@@ -9,6 +9,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     public Transform spawnPoint;
     void Start()
     {
+        Debug.Log("Correcion de Bug");
         PhotonNetwork.JoinRandomOrCreateRoom();
     }
 
